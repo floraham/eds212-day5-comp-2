@@ -1,0 +1,37 @@
+---
+title: "eds212-day5-comp-2"
+format: html
+editor: visual
+---
+
+# some logical operators
+
+-   == (do these valuesmatch?)
+-   = (this is this value)
+-   != (do these not match?)
+-   >, <, >=, <=
+-   & (and), | (or)
+
+#does 4 match 5? 
+```{r}
+4 == 5
+4 == 4
+4 != 5
+
+```
+```{r}
+cat <- 10 
+dog <- 7 
+cat > dog
+
+#Is dog greater than cat, OR is cat less than 20?
+dog > cat | cat <20
+
+#Is dog less than cat AND cat == 10
+( dog < cat ) & ( cat == 10 )
+
+dog <cat & cat >2 & 4 >=dog 
+
+
+```
+
